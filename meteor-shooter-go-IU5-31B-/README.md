@@ -1,0 +1,24 @@
+# Meteor Shooter (Go + Ebitengine)
+
+[![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go)](https://golang.org/)
+[![Ebitengine](https://img.shields.io/badge/Ebitengine-v2.9.5-FF6B6B)](https://ebitengine.org/)
+
+**Профессиональный 2D-шутер на чистом Go** с архитектурой, готовой к масштабированию.
+
+## 🎮 О проекте
+Проект демонстрирует:
+- **Чистую архитектуру** с разделением ответственности (папка `game/`)
+- **Оптимальную работу с ресурсами** через `//go:embed`
+- **Профессиональный CI/CD** (был в `.github/workflows/`)
+- **Кросс-платформенность**: десктоп (Windows/Linux/macOS) + WebAssembly
+
+## 🏗️ Архитектура
+
+
+## 🚀 Запуск
+```bash
+# Клонирование и запуск
+git clone https://github.com/redblan/meteor-shooter-go-IU5-31B-
+cd meteor-shooter-go-IU5-31B-/
+go mod tidy
+go run .
